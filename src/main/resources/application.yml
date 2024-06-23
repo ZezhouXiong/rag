@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: llm-rag-001
+  elasticsearch:
+    uris: http://192.168.88.101:9200
+  shell:
+    history:
+      name: test
+    theme:
+      name: aaa
+logging:
+  config: classpath:logback-local.xml
+llm:
+  zp-key: a8f29bf7b8ae42bb8c7fd37ac0b91ef7.idkCog4cIXCXDPsK
